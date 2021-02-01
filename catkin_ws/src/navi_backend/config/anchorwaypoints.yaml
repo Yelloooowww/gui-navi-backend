@@ -1,0 +1,43 @@
+---
+map:
+  /map/cave_map_3.png
+
+loc_a1:
+  aid: 18
+  globalx: -28.685
+  globaly: 34.656
+
+loc_a2:
+  aid: 4
+  globalx: -35.433
+  globaly: 34.664
+
+loc_a3:
+  aid: 5
+  globalx: -49.918
+  globaly: 33.204
+
+loc_a4:
+  aid: 11
+  globalx: -39.195
+  globaly: 29.093
+
+loc_a5:
+  aid: 19
+  globalx: -29.319
+  globaly: 21.448
+
+loc_a6:
+  aid: 24
+  globalx: -16.638
+  globaly: 14.467
+
+loc_a7:
+  aid: 12
+  globalx: -7.777
+  globaly: 6.896
+
+loc_a8:
+  aid: 20
+  globalx: -9.006
+  globaly: -2.558

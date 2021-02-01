@@ -4,6 +4,7 @@ import sys
 import cv2
 from PyQt5.QtGui import QImage, QPixmap
 from PyQt5.QtWidgets import QApplication, QDialog, QFileDialog, QGridLayout, QLabel, QPushButton
+import rospy
 
 class ImageLabel(QLabel):
     scale = 1.0
@@ -16,7 +17,7 @@ class ImageLabel(QLabel):
     def mousePressEvent(self,event):
         self.x = event.x()
         self.y = event.y()
-        #print(str(self.x) + ' ' + str(self.y))
+        print(str(self.x) + ' ' + str(self.y))
 
     def mouseMoveEvent(self, event):
         self.x = event.x()

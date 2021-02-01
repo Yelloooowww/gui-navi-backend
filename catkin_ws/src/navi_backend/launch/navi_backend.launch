@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<launch>
+    <!-- Launch this file at back car -->
+    <arg name="config_file" default="anchorwaypoints" />
+    <rosparam command="load" file="$(find navi_backend)/config/$(arg config_file).yaml" />
+    <arg name="veh" default="husky1"/>
+
+    <node ns="$(arg veh)" name="ui_backend" pkg="navi_backend" type="ui_backend.py" output="screen">
+      <rosparam param="pkg_path" subst_value="True">$(find navi_backend)</rosparam>
+    </node>
+</launch>
